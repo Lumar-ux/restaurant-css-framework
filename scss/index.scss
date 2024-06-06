@@ -1,0 +1,128 @@
+// scss/main.scss
+
+// Import Bootstrap's functions and variables
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+
+// Override Bootstrap variables
+// @import "variables";
+
+// Import Bootstrap's remaining styles
+// @import "../node_modules/bootstrap/scss/bootstrap";
+@font-face {
+  font-family: "Helvetica LT Std";
+  src: url("C:\Users\Lucas Maroy\OneDrive\Documents\Becode\restaurant-css-framework\fonts\Helvetica LT Std\Helvetica LT Std Compressed.otf")
+    format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica LT Std";
+  src: url("C:\Users\Lucas Maroy\OneDrive\Documents\Becode\restaurant-css-framework\fonts\Helvetica LT Std\Helvetica LT Std Compressed.otf")
+    format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica LT Std";
+  src: url("C:\Users\Lucas Maroy\OneDrive\Documents\Becode\restaurant-css-framework\fonts\Helvetica LT Std\Helvetica LT Std Bold.otf")
+    format("otf");
+  font-weight: 800;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica LT Std", sans-serif;
+  background-color: #f1ebd9;
+}
+body nav {
+  height: 195px;
+}
+body nav .container-xxl .row a {
+  color: #f1ebd9;
+  font-size: 15px;
+}
+body .container-xxl .row .images {
+  width: 372px;
+}
+body main {
+ padding-top: 87px;
+}
+body .main-1 {
+  margin-bottom: 75px;
+}
+body .main-1 .row .logo {
+  width: 631px;
+}
+
+body .main-1 .row .col-5 p {
+  font-size: 15px;
+  text-align: justify;
+}
+main .img-damier {
+  height: 80px;
+  width: 1920px;
+}
+main .main-2 {
+  height: 100%;
+  width: 100%;
+  padding-top: 75px;
+}
+main .main-2 .titre-Event {
+  font-weight: 700;
+  font-size: 70px;
+  color: #f1ebd9;
+  margin-bottom: 45px;
+}
+main .main-2 .jumbotron h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+main .main-2 .article_jumbo .row .col-10 .jumbotron {
+  margin-bottom: 50px;
+}
+main .main-2 .jumbotron .parag-jumbo p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.card-text{
+  font-size: 15px;
+  font-weight: 400;
+  color: #f1ebd9;
+}
+.card-title{
+  font-weight: 400;
+  color: #f1ebd9;
+}
+.card-all{
+  margin-bottom: 25px;
+}
+.main-2 .article-card-1{
+  padding-bottom: 70px;
+}
+footer{
+  height: 195px;
+}
+footer .row .col-10 nav ul{
+  list-style-type: none;
+}
+footer .foot-img{
+  margin-right: 145px;
+}
+footer .row .col-10 nav ul li{
+  font-weight: 400;
+  font-size: 13px;
+}
+footer .row .col-10 nav ul li h1{
+  font-weight: 600;
+  font-size: 15px;
+}
+footer .row .col-10 nav ul li section h2{
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
