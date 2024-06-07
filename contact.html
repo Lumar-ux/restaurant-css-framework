@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nos restaurants</title>
+  <title>Contact</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
 </head>
@@ -27,40 +27,43 @@
     </section>
   </nav>
   <main>
-    <section class="container px-0">
+    <section id="cont-contact" class="container px-0">
       <div class="row">
-        <h1 class="title-resto-ca px-0">NOS RESTAURANT</h1>
+        <h1 class="title-resto-ca px-0">CONTACT</h1>
         <div class="col-12 px-0">
-          <h2 class="pays-ca">VANCOUVER, CANADA</h2>
-          <div class="main-content col-12 d-flex">
-            <article class="col-2">
-              <p>Burnbay st, 1021</p>
-              <h3>HEURE D'OUVERTURE</h3>
-              <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 23H</p>
-              <p class="text-uppercase mb-0">Weekend <br> 12H - 23H</p>
-            </article>
-            <article class="col-10 map-wrapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.864707650293!2d-123.13347752302398!3d49.27896077101716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673d35ecb324b%3A0x4b460c69c0f43760!2s1021%20Burnaby%20St%2C%20Vancouver%2C%20BC%20V6E%201N9%2C%20Canada!5e0!3m2!1sfr!2sbe!4v1717749318188!5m2!1sfr!2sbe" width="100%" height="500" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <article/>
+          <div class="form-floating mb-3 no-radius">
+            <input type="firstname" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Prénom</label>
           </div>
-        </div>
-      </div>
-      <div class="row carte-row-usa mt-5">
-        <div class="col-12 px-0">
-          <h2 class="pays-ca">PORTLAND, USA</h2>
-          <div class="main-content col-12 d-flex">
-            <article class="col-2">
-              <p>SE Division St, 10026</p>
-              <h3>HEURE D'OUVERTURE</h3>
-              <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 23H</p>
-              <p class="text-uppercase mb-0">Weekend <br> 12H - 23H</p>
-            </article>
-            <article class="col-10 map-wrapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d293.9241582307533!2d-122.56038652363834!3d45.504168000685894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a1b65400c997%3A0x4e305a97ffabcb28!2s10026%20SE%20Division%20St%2C%20Portland%2C%20OR%2097266%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sbe!4v1717755655816!5m2!1sfr!2sbe" width="100%" height="500" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <article/>
+          <div class="form-floating mb-3 no-radius">
+            <input type="name" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingInput">Nom</label>
           </div>
+          <div class="form-floating mb-3 no-radius">
+            <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingInput">Adresse email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <option selected>Choisissez une option parmi celles-ci:</option>
+              <option value="1">Demande de réservation (date, heure, nombre de personnes)</option>
+              <option value="2">Demande d'informations sur les événements privés</option>
+              <option value="3">Réservation pour un groupe</option>
+              <option value="4">Questions sur les ingrédients ou les allergènes</option>
+              <option value="5">Demande d'informations sur les options végétariennes/véganes</option>
+              <option value="6">Commande à emporter/livraison</option>
+              <option value="7">Demande de modification de commande</option>
+              <option value="8">Problème avec une commande passée</option>
+            </select>
+            <label for="floatingSelect">Object</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <button type="submit" class="btn d-flex">Envoyé<img src="images/send_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="send-icon"></button>
         </div>
-      </div>
+      </div> 
     </section>
   </main>
   <img class="img-damier" src="images/Damier.svg" alt="Damier">

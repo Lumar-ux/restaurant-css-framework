@@ -167,6 +167,24 @@ main .main-content article p,main .main-content article h3{
 main .main-content article h3{
   font-weight: bold;
 }
+body .container {
+  margin-bottom: 75px;
+}
+body main #cont-contact{
+  margin-bottom: 175px;
+}
+body main .form-floating{
+  background-color: #f1ebd9;
+}
+body main .container .btn{
+  background-color: #73160E;
+  color: #f1ebd9;
+  padding-right: 8px;
+}
+body main .container .btn img{
+  margin-left: 5px;
+}
+
 // main .carte-row-usa{
 //   margin
 // }
