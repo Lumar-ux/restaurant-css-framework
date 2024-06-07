@@ -38,7 +38,7 @@ Chaque entrée doit avoir un titre dans une balise sémantiquement correcte.
 
 ## Démo
 
-Pour voir le site en action, visitez [GitHub Page](LIEN_GITHUB_PAGE).
+Pour voir le site en action, visitez [GitHub Page](https://lumar-ux.github.io/restaurant-css-framework/).
 
 ## Libre accès et modifications
 
