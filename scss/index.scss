@@ -57,8 +57,10 @@ body .main-gal-1 {
 body .main-1 .row .logo {
   width: 631px;
 }
-body main .main-gal-1 .row #title_gal{
+body main .main-gal-1 .row .title_gal{
   font-weight: 600;
+  height: 68px;
+  margin-bottom: 45px;
   font-size: 70px;
   color: #73160E;
 }
@@ -77,6 +79,7 @@ main .main-2 {
 }
 main .main-2 .titre-Event {
   font-weight: 600;
+  height: 68px;
   font-size: 70px;
   color: #f1ebd9;
   margin-bottom: 45px;
@@ -141,8 +144,32 @@ main .row .col-10 ul .title_list{
 main .row .col-10 ul li span{
   margin-left: 7px;
 }
+main .main-1 .title-menu,main .title-resto-ca{
+  font-weight: 600;
+  font-size: 70px;
+  height: 68px;
+  color: #73160E;
+  margin-bottom: 45px;
+}
 main .carousel-item img{
   height: 624px;
   object-fit: cover;
   object-position: center;
 }
+main .pays-ca{
+  font-weight: 600;
+  color: #73160E;
+  font-size: 43.26px;
+}
+main .main-content article p,main .main-content article h3{
+  font-size: 15px;
+}
+main .main-content article h3{
+  font-weight: bold;
+}
+// main .carte-row-usa{
+//   margin
+// }
+// main  .main-content .col-10 iframe{
+//   filter:
+// }
