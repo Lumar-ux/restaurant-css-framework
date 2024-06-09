@@ -24,6 +24,7 @@
 
 body {
   font-family: "HelveticaLTStd", sans-serif;
+  background-color: #f1ebd9;
 }
 
 body nav {
@@ -43,12 +44,16 @@ body main {
   padding-top: 87px;
 }
 
-main .main-1 {
+body .main-1 {
   margin-bottom: 75px;
 }
 
 body .main-gal-1 {
   margin-bottom: 97px;
+}
+
+body .main-1 .row .logo {
+  width: 631px;
 }
 
 body main .main-gal-1 .row .title_gal {
@@ -72,10 +77,10 @@ main .img-damier {
 main .main-2 {
   height: 100%;
   width: 100%;
-  padding-block: 75px;
+  padding-top: 75px;
 }
 
-main .main-2 .article_jumbo .titre-Event {
+main .main-2 .titre-Event {
   font-weight: 600;
   height: 68px;
   font-size: 70px;
@@ -83,16 +88,18 @@ main .main-2 .article_jumbo .titre-Event {
   margin-bottom: 45px;
 }
 
-main .main-2 .article_jumbo .jumbotron h1 {
+main .main-2 .jumbotron h1 {
   font-size: 50px;
   margin-bottom: 30px;
-  color: #73160E;
+}
+
+main .main-2 .article_jumbo .row .col-10 .jumbotron {
+  margin-bottom: 50px;
 }
 
 main .main-2 .jumbotron .parag-jumbo p {
   font-size: 15px;
   font-weight: normal;
-  text-align: justify;
 }
 
 .card-text {
@@ -110,15 +117,18 @@ main .main-2 .jumbotron .parag-jumbo p {
   margin-bottom: 25px;
 }
 
-main .main-2 .article-card-1 {
-  margin-top: 50px;
+.main-2 .article-card-1 {
+  padding-bottom: 70px;
 }
 
 footer {
   height: 195px;
 }
+footer section {
+  min-height: 195px; /* Même hauteur que le footer */
+}
 
-footer .row .col nav ul {
+footer .row .col-10 nav ul {
   list-style-type: none;
 }
 
@@ -126,33 +136,20 @@ footer .foot-img {
   margin-right: 145px;
 }
 
-footer .row .col nav ul li {
+footer .row .col-10 nav ul li {
   font-weight: normal;
   font-size: 13px;
 }
 
-footer .row .col nav ul li .title-ouv {
+footer .row .col nav ul li h1 {
   font-weight: bold;
   font-size: 15px;
 }
 
-footer .foot-1 h2, footer .foot-1colo h2 {
+footer .row .col-10 nav ul li section h2 {
   font-weight: normal;
   font-size: 15px;
   margin-bottom: 7px;
-}
-
-footer .foot-1colo p, footer .foot-1colo h2, footer .foot-1colo a {
-  color: #f1ebd9;
-}
-
-footer .foot-1colo a, footer .foot-1 a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer .foot-1 a {
-  color: black;
 }
 
 main .row .col-10 ul li {
@@ -181,9 +178,9 @@ main .main-1 .title-menu, main .title-resto-ca {
 main .carousel-item img {
   height: 624px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 
 main .pays-ca {
@@ -192,19 +189,15 @@ main .pays-ca {
   font-size: 43.26px;
 }
 
-main .resto-ouvert article p, main .resto-ouvert article h3 {
+main .main-content article p, main .main-content article h3 {
   font-size: 15px;
 }
 
-main .main-resto .resto-ouvert {
-  margin-bottom: 45px;
-}
-
-main .resto-ouvert article h3 {
+main .main-content article h3 {
   font-weight: bold;
 }
 
-body .main-resto {
+body .container {
   margin-bottom: 75px;
 }
 
@@ -216,12 +209,12 @@ body main .form-floating {
   background-color: #f1ebd9;
 }
 
-body main .container .send {
+body main .container .btn {
   background-color: #73160E;
   color: #f1ebd9;
   padding-right: 8px;
 }
 
-body main .container .send img {
+body main .container .btn img {
   margin-left: 5px;
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
