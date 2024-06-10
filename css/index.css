@@ -12041,7 +12041,8 @@ main .img-damier {
   width: 1903px;
 }
 
-main .main-1 .main-1-logo, main .main-1 .main-1-para {
+main .main-1 .main-1-logo,
+main .main-1 .main-1-para {
   margin-bottom: 24px;
 }
 
@@ -12100,14 +12101,10 @@ footer .row .col nav ul {
 
 footer .foot-img {
   margin-right: 145px;
+  width: 242px;
 }
 
-footer .row .col nav ul li {
-  font-weight: normal;
-  font-size: 13px;
-}
-
-footer .row .col nav ul li .title-ouv {
+footer .row .col nav ul li a {
   font-weight: bold;
   font-size: 15px;
 }
@@ -12118,6 +12115,12 @@ footer .foot-1colo .h2 {
   font-weight: normal;
   font-size: 15px;
   margin-bottom: 7px;
+}
+
+footer .foot-1 p,
+footer .foot-1colo p {
+  font-weight: normal;
+  font-size: 12px;
 }
 
 footer .foot-1colo p,
@@ -12133,7 +12136,10 @@ footer .foot-1 a {
   font-weight: bold;
 }
 
-footer .foot-1 a, footer .foot-1 p, footer .foot-1 h2, footer .foot-1 .h2 {
+footer .foot-1 a,
+footer .foot-1 p,
+footer .foot-1 h2,
+footer .foot-1 .h2 {
   color: #73160e;
 }
 
@@ -12144,8 +12150,8 @@ main .row .col-10 ul li {
 
 main .row .col-10 ul .title_list {
   font-weight: 600;
-  font-size: 16px;
-  padding-top: 25px;
+  font-size: 24px;
+  margin-top: 24px;
 }
 
 main .row .col-10 ul li span {
@@ -12159,6 +12165,11 @@ main .title-resto-ca {
   height: 68px;
   color: #73160e;
   margin-bottom: 45px;
+}
+
+main .main-1 ul li .badge {
+  background-color: #73160e;
+  color: #f1ebd9;
 }
 
 main .carousel-item img {
@@ -12218,7 +12229,7 @@ body main .container .send img {
   main .main-2 .article-card-1 .card:last-child {
     margin-bottom: 0px;
   }
-  main .img-damier {
+  body .img-damier {
     width: 100%;
     height: 80px;
     -o-object-fit: cover;
@@ -12229,18 +12240,15 @@ body main .container .send img {
   main .article-card-1 .card-all-1 {
     margin-bottom: 25px;
   }
-  footer .foot-logo-lien img {
-    width: 50%;
-    margin-right: 0px;
-  }
   footer .foot-img {
     margin-right: 0px;
+    width: 200px;
   }
-  footer .foot-1colo nav ul li {
+  footer .foot-1colo nav ul li:nth-child(2), footer .foot-1 nav ul li:nth-child(2) {
     margin-bottom: 24px;
   }
-  footer .foot-1colo nav ul li:last-child {
-    margin-bottom: 0px;
+  footer .foot-1colo nav, footer .foot-1 nav {
+    margin-bottom: 24px;
   }
   main .main-1-images {
     width: 540px !important;
@@ -12256,9 +12264,6 @@ body main .container .send img {
   }
   body .main-1 .main-1-logo {
     margin-bottom: 50px;
-  }
-  footer {
-    height: 325px;
   }
 
 }/*# sourceMappingURL=index.css.map */
