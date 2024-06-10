@@ -8,39 +8,46 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body style="background-color: #f1ebd9;">
-  <nav class="navbar p-0 text-uppercase" style="background-color: #73160E;">
-    <section class="container p-0 h-100">
-      <div class="row m-0 w-100">
-        <div class="col mx-0 p-0 d-flex justify-content-between">
-          <div class="grp-link">
-            <a class="navbar-brand col me-4 mys-0 p-0" href="index.html">Welcome</a>
-            <a class="navbar-brand col me-4 mys-0 p-0" href="menu.html">Menu</a>
-            <a class="navbar-brand col me-4 mys-0 p-0" href="restaurant.html">Nos Restaurants</a>
-            <a class="navbar-brand col me-4 mys-0 p-0" href="galerie.html">Galerie</a>
-            <a class="navbar-brand col m-0 p-0" href="contact.html">Contact</a>
-          </div>
-          <div class="grp-social">
-            <a class="me-4 mys-0 p-0" href="#">
-              <img src="images/Instagram, Color=Negative.svg" alt="Logo-Instagram" width="24px" height="24px">
-            </a>
-            <a class="m-0 p-0" href="#">
-              <img src="images/Facebook, Color=Negative.svg" alt="Logo-Facebook" width="24px" height="24px">
-            </a>
+    <nav class="navbar navbar-expand-lg"style="background-color: #73160E;">
+      <section class="container">
+        <div class="row m-0 w-100">
+          <div class="col mx-0 p-0 d-flex justify-content-between align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav p-0 text-uppercase">
+                <a class="nav-link active  me-4 mys-0 p-0" href="index.html">Welcome</a>
+                <a class="nav-link me-4 mys-0 p-0" href="menu.html">Menu</a>
+                <a class="nav-link  me-4 mys-0 p-0" href="restaurant.html">Nos Restaurants</a>
+                <a class="nav-link me-4 mys-0 p-0" href="galerie.html">Galerie</a>
+                <a class="nav-link  m-0 p-0" href="contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="grp-social d-flex">
+              <a class="me-4 mys-0 p-0" href="#">
+                <img src="images/Instagram, Color=Negative.svg" alt="Logo-Instagram" width="24px" height="24px">
+              </a>
+              <a class="m-0 p-0" href="#">
+                <img src="images/Facebook, Color=Negative.svg" alt="Logo-Facebook" width="24px" height="24px">
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </nav>
+      </section>
+    </nav>
   <main>
     <section class="main-1 container p-0">
-      <div class="row m-0  d-flex justify-content-between" >
-        <div class="col-5 d-flex align-items-end flex-column m-0 p-0">
-          <a href="index.html">
-            <img class="logo p-0" src="images/logo_tavola_colo_02.svg" alt="Logo_02" width="550px">
+      <div class="row m-0 d-flex flex-md-row flex-column justify-content-between w-100" >
+        <div class="col-md-5 col-12 d-flex align-items-start flex-column m-0 p-0">
+          <a class="col-md-10 col-4 mx-md-0 mx-auto" href="index.html">
+            <img class="main-1-logo p-0 w-100" src="images/logo_tavola_colo_02.svg" alt="Logo_02">
           </a>
-          <p class="mt-auto mb-0" style="color: #73160E;">Tavola est une pizzeria contemporaine qui a su se démarquer grâce à son approche innovante de la cuisine italienne. Située dans un quartier branché, Tavola propose un menu éclectique avec des pizzas aux saveurs uniques, comme la truffe blanche et le gorgonzola, ou encore le poulet épicé et la mangue. Le décor moderne et l'ambiance conviviale attirent une clientèle jeune et dynamique, faisant de Tavola un lieu incontournable pour les amateurs de nouveautés culinaires.</p>
+          <p class="main-1-para col-md-12 col-8 mt-md-auto mx-auto" style="color: #73160E;">Tavola est une pizzeria contemporaine qui a su se démarquer grâce à son approche innovante de la cuisine italienne. Située dans un quartier branché, Tavola propose un menu éclectique avec des pizzas aux saveurs uniques, comme la truffe blanche et le gorgonzola, ou encore le poulet épicé et la mangue. Le décor moderne et l'ambiance conviviale attirent une clientèle jeune et dynamique, faisant de Tavola un lieu incontournable pour les amateurs de nouveautés culinaires.</p>
         </div>
-        <img class="images p-0" src="images/benu-marinescu-e6ZOmEfNHLM-unsplash.jpg" alt="pizza maker" >
+        <!-- <div class="col-4"> -->
+        <img class="main-1-images p-0 rounded" src="images/benu-marinescu-e6ZOmEfNHLM-unsplash.jpg" alt="pizza maker" >
+        <!-- </div> -->
       </div>
     </section>
     <img class="img-damier" src="images/Damier.svg" alt="Damier">
@@ -51,10 +58,14 @@
             <h1 class="titre-Event p-0 text-uppercase">Event/news</h1>
           </div>
         </div>
-        <div class="row px-0 mx-0">
-          <div class="col p-0"> <!-- 80% de la largeur de la page -->
-            <div class="jumbotron p-4 rounded" style="background-color: #f1ebd9;">
-              <h1 class="display-4 text-uppercase">Soirée Dégustation</h1>
+        <div class="jumbotron p-4 rounded " style="background-color: #f1ebd9;">
+          <div class="row">
+            <div class="col d-flex justify-content-md-start justify-content-center">
+              <h1 class="d-inline text-uppercase">Soirée Dégustation</h1>
+            </div>
+          </div>
+          <div class="row px-0 mx-0 ">
+            <div class="col p-0 d-flex flex-column align-items-md-start align-items-center">
               <div class="parag-jumbo col-10 d-flex flex-column flex-md-row gap-4">
                 <p class="lead m-0">Tavola organise une soirée dégustation exclusive où les invités pourront savourer une variété de pizzas artisanales créées par le chef Luigi. Chaque pizza sera accompagnée d'un vin soigneusement sélectionné pour compléter les saveurs. Une occasion idéale pour découvrir de nouvelles combinaisons de goûts dans une</p>
                 <p class="lead m-0">ambiance chaleureuse. Les convives auront également l'opportunité de rencontrer le chef Luigi, qui partagera ses secrets de cuisine et répondra aux questions. En plus des pizzas, des amuse-bouches et des desserts italiens traditionnels seront servis, offrant une expérience culinaire complète et raffinée.</p>
@@ -69,9 +80,9 @@
         </div>
       </article>
       <article class="article-card-1 container p-0">
-        <div class="row m-0">
-          <div class="col p-0 d-flex justify-content-between">
-            <div class="card p-0" style="width: 23rem; background-color: #73160E;">
+        <div class="row m-0 gap-5 d-flex flex-md-row flex-column justify-content-between align-items-md-stretch align-items-center">
+          <div class="col-md col-11 p-0 d-flex flex-md-row flex-column justify-content-between align-items-md-stretch align-items-center">
+            <div class="card p-0" style="background-color: #73160E;">
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="card-all-1">
                   <h5 class="card-title text-uppercase">Pizza Édition Limitée d'Été</h5>
@@ -80,7 +91,9 @@
                 <a class="btn btn-lg" href="#" style="background-color: #73160E;  border: solid 3px #f1ebd9; color: #f1ebd9;">Learn more</a>
               </div>
             </div>
-            <div class="card p-0" style="width: 23rem; background-color: #73160E;">
+          </div>
+          <div class="col-md col-11 p-0 d-flex flex-md-row flex-column justify-content-between align-items-md-stretch align-items-center">
+            <div class="card p-0" style="background-color: #73160E;">
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="card-all">
                   <h5 class="card-title text-uppercase">5e Anniversaire</h5>
@@ -89,7 +102,9 @@
                 <a class="btn btn-lg" href="#" style="background-color: #73160E;  border: solid 3px #f1ebd9; color: #f1ebd9;">Learn more</a>
               </div>
             </div>
-            <div class="card p-0" style="width: 23rem; background-color: #73160E;">
+          </div>
+          <div class="col-md col-11 p-0 d-flex flex-md-row flex-column justify-content-between align-items-md-stretch align-items-center">
+            <div class="card p-0" style="background-color: #73160E;">
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="card-all">
                   <h5 class="card-title text-uppercase">Ateliers de Pizzaiolo</h5>
@@ -103,34 +118,35 @@
       </article>
     </section>
   </main>
-  <footer style="background-color: #f1ebd9; height: 195px;">
+  <footer  style="background-color: #f1ebd9; ">
     <section class="foot-1 container p-0">
-      <div class="row w-100 h-100">
-        <div class="col p-0 d-flex align-items-center">
-          <a href="index.html">
+      <div class="row px-0">
+        <div class="col p-0 d-flex flex-md-row flex-column align-items-center">
+          <a href="index.html" class="foot-logo-lien my-4 d-inline">
             <img class="foot-img p-0" src="images/logo_tavola_colo_02.svg" alt="Logo_02" width="242px">
           </a>
-          <nav class="d-flex align-items-center w-100">
-            <ul class="p-0 mb-0 d-flex justify-content-between w-100">
-              <li class="d-flex gap-4">
-                <a class="title-ouv text-uppercase mb-0 p-0" href="restaurant.html">Ouverture</a>
-                <section class="d-flex flex-column mb-0">
-                  <p></p>
-                  <h2 class="text-uppercase">Vancouver - CA</h2>
-                  <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 00H</p>
-                  <p class="text-uppercase mb-0">Weekend <br> 12H - 00H</p>
-                </section>
-                <section class="d-flex flex-column mb-0">
-                  <p></p>
-                  <h2 class="text-uppercase">Portland - USA</h2>
-                  <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 23H</p>
-                  <p class="text-uppercase mb-0">Weekend <br> 12H - 23H</p>
-                </section>
-              </li>
-              <li class="text-uppercase"><a class="me-4 mys-0 p-0" href="#">Accessibilité</a></li>
-              <li class="text-uppercase"><a class="m-0 p-0" href="#">Sécurité</a></li>
-            </ul>
-          </nav>
+          <!-- <div class="col p-0 d-flex flex-md-row flex-column align-items-center"> -->
+            <nav class="d-flex align-items-center flex-md-row flex-column w-100">
+              <ul class="p-0 mb-0 d-flex flex-md-row flex-column justify-content-between w-100">
+                <li class="d-flex justify-content-between">
+                  <a class="title-ouv text-uppercase mb-0 me-4 p-0" href="restaurant.html">Ouverture</a>
+                  
+                  <section class="d-flex flex-column mb-0 me-4">
+                    <h2 class="text-uppercase"><br>Vancouver - CA</h2>
+                    <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 00H</p>
+                    <p class="text-uppercase mb-0">Weekend <br> 12H - 00H</p>
+                  </section>
+                  <section class="d-flex flex-column mb-0">
+                    <h2 class="text-uppercase"><br>Portland - USA</h2>
+                    <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 23H</p>
+                    <p class="text-uppercase mb-0">Weekend <br> 12H - 23H</p>
+                  </section>
+                </li>
+                <li class="text-uppercase"><a class="me-4 mys-0 p-0" href="#">Accessibilité</a></li>
+                <li class="text-uppercase"><a class="m-0 p-0" href="#">Sécurité</a></li>
+              </ul>
+            </nav>
+          <!-- </div> -->
         </div>
       </div>
     </section>

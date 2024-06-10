@@ -8,18 +8,23 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body style="background-color: #f1ebd9;">
-  <nav class="navbar p-0 text-uppercase" style="background-color: #73160E;">
-    <section class="container p-0 h-100">
+  <nav class="navbar navbar-expand-lg"style="background-color: #73160E;">
+    <section class="container">
       <div class="row m-0 w-100">
-        <div class="col p-0 d-flex justify-content-between">
-          <div class="grp-link">
-            <a class="navbar-brand col me-4 mys-0 p-0" href="index.html">Welcome</a>
-            <a class="navbar-brand col me-4 mys-0 p-0" href="menu.html">Menu</a>
-            <a class="navbar-brand col me-4 mys-0 p-0" href="restaurant.html">Nos Restaurants</a>
-            <a class="navbar-brand col me-4 mys-0 p-0" href="galerie.html">Galerie</a>
-            <a class="navbar-brand col m-0 p-0" href="contact.html">Contact</a>
+        <div class="col mx-0 p-0 d-flex justify-content-between align-items-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav p-0 text-uppercase">
+              <a class="nav-link active  me-4 mys-0 p-0" href="index.html">Welcome</a>
+              <a class="nav-link me-4 mys-0 p-0" href="menu.html">Menu</a>
+              <a class="nav-link  me-4 mys-0 p-0" href="restaurant.html">Nos Restaurants</a>
+              <a class="nav-link me-4 mys-0 p-0" href="galerie.html">Galerie</a>
+              <a class="nav-link  m-0 p-0" href="contact.html">Contact</a>
+            </div>
           </div>
-          <div class="grp-social">
+          <div class="grp-social d-flex">
             <a class="me-4 mys-0 p-0" href="#">
               <img src="images/Instagram, Color=Negative.svg" alt="Logo-Instagram" width="24px" height="24px">
             </a>
@@ -34,23 +39,25 @@
   <main>
     <section class="main-resto container px-0">
       <div class="row m-0">
-        <div class="col-12 m-0 px-0">
+        <div class="col m-0 px-0">
           <h1 class="title-resto-ca px-0">NOS RESTAURANT</h1>
         </div>
       </div>
       <div class="row m-0">
-        <div class="col-12 m-0 px-0">
+        <div class="col m-0 px-0">
           <h2 class="pays-ca px-0">VANCOUVER, CANADA</h2>
         </div>
       </div>
-      <div class="resto-ouvert row mx-0">
-          <article class="col-2 px-0">
+      <div class="resto-ouvert row d-flex flex-md-row flex-column mx-0">
+          <article class="col-md-2 col px-0">
             <p>Burnbay st, 1021</p>
             <h3>HEURE D'OUVERTURE</h3>
-            <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 00H</p>
-            <p class="text-uppercase mb-0">Weekend <br> 12H - 00H</p>
+            <article class="d-flex flex-md-column flex-row gap-4">
+              <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 00H</p>
+              <p class="text-uppercase mb-0">Weekend <br> 12H - 00H</p>
+            </article>
           </article>
-          <article class="cart-1 col-10 ps-3 pe-0 map-wrapper">
+          <article class="cart-1 col-md-10 col ps-md-3 ps-0 pe-0 mt-md-0 mt-3 map-wrapper">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.864707650293!2d-123.13347752302398!3d49.27896077101716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673d35ecb324b%3A0x4b460c69c0f43760!2s1021%20Burnaby%20St%2C%20Vancouver%2C%20BC%20V6E%201N9%2C%20Canada!5e0!3m2!1sfr!2sbe!4v1717749318188!5m2!1sfr!2sbe" width="100%" height="500" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </article>
       </div>
@@ -59,21 +66,23 @@
           <h2 class="pays-ca px-0">BOSTON, USA</h2>
         </div>
       </div>
-      <div class="resto-ouvert row m-0">
-          <article class="col-2 px-0">
+      <div class="resto-ouvert row d-flex flex-md-row flex-column m-0">
+          <article class="col-md-2 col px-0">
             <p>SE Division St, 10026</p>
             <h3>HEURE D'OUVERTURE</h3>
-            <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 23H</p>
-            <p class="text-uppercase mb-0">Weekend <br> 12H - 23H</p>
+            <article class="d-flex flex-md-column flex-row gap-4">
+              <p class="text-uppercase mb-0">Lundi - Vendredi <br> 14H - 23H</p>
+              <p class="text-uppercase mb-0">Weekend <br> 12H - 23H</p>
+            </article>
           </article>
-          <article class="col-10 ps-3 pe-0 map-wrapper">
+          <article class="col-md-10 col ps-md-3 ps-0 pe-0 mt-md-0 mt-3 map-wrapper">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.864707650293!2d-123.13347752302398!3d49.27896077101716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673d35ecb324b%3A0x4b460c69c0f43760!2s1021%20Burnaby%20St%2C%20Vancouver%2C%20BC%20V6E%201N9%2C%20Canada!5e0!3m2!1sfr!2sbe!4v1717749318188!5m2!1sfr!2sbe" width="100%" height="500" class="rounded-4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </article>
       </div>
     </section>
   </main>
   <img class="img-damier" src="images/Damier.svg" alt="Damier">
-  <footer style="background-color: #73160E; height: 195px;">
+  <footer style="background-color: #73160E;">
     <section class="foot-1colo container p-0">
       <div class="row w-100 h-100">
         <div class="col p-0 d-flex align-items-center">

@@ -1,13 +1,14 @@
 // Import Bootstrap's functions and variables
-// @import "../node_modules/bootstrap/scss/functions";
-// @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
 // Override Bootstrap variables
-// @import "variables";
-// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
 // Import Bootstrap's remaining styles
 @font-face {
   font-family: "HelveticaLTStd";
-  src: url("../fonts/HelveticaLTStd/Helvetica-LT-Std-Compressed.otf") format("opentype");
+  src: url("../fonts/HelveticaLTStd/Helvetica-LT-Std-Compressed.otf")
+    format("opentype");
   font-weight: 600;
   font-style: normal;
 }
@@ -23,6 +24,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -30,16 +32,20 @@
 }
 body {
   font-family: "HelveticaLTStd", sans-serif;
-  
 }
 body nav {
   height: 195px;
 }
-body nav .container .row .grp-link a {
+body nav .container .row .navbar-nav a {
   color: #f1ebd9;
   font-size: 15px;
 }
-body .container .row .images {
+nav .navbar-toggler{
+  color: #f1ebd9;
+  border: solid 2px#f1ebd9;
+  margin-right: 20px;
+}
+body .container .row .main-1-images {
   width: 372px;
 }
 body main {
@@ -56,15 +62,20 @@ body main .main-gal-1 .row .title_gal {
   height: 68px;
   margin-bottom: 45px;
   font-size: 70px;
-  color: #73160E;
+  color: #73160e;
 }
-body .main-1 .row .col-5 p {
+body .main-1 .main-1-para {
   font-size: 15px;
   text-align: justify;
 }
 main .img-damier {
-  height: 80px;
-  width: 1920px;
+  width: 1903px;
+}
+main .main-1 .main-1-logo,main .main-1 .main-1-para{
+  margin-bottom: 24px;
+}
+main .main-1 .main-1-images{
+  width: 550px;
 }
 main .main-2 {
   height: 100%;
@@ -81,7 +92,7 @@ main .main-2 .article_jumbo .titre-Event {
 main .main-2 .article_jumbo .jumbotron h1 {
   font-size: 50px;
   margin-bottom: 30px;
-  color: #73160E;
+  color: #73160e;
 }
 main .main-2 .jumbotron .parag-jumbo p {
   font-size: 15px;
@@ -100,12 +111,12 @@ main .main-2 .jumbotron .parag-jumbo p {
 .card-all {
   margin-bottom: 25px;
 }
-main .main-2 .article-card-1{
+main .main-2 .article-card-1 {
   margin-top: 50px;
 }
-footer {
-  height: 195px;
-}
+// footer {
+//   height: 195px;
+// }
 footer .row .col nav ul {
   list-style-type: none;
 }
@@ -120,24 +131,28 @@ footer .row .col nav ul li .title-ouv {
   font-weight: bold;
   font-size: 15px;
 }
-footer .foot-1 h2,footer .foot-1colo h2{
+footer .foot-1 h2,
+footer .foot-1colo h2 {
   font-weight: normal;
   font-size: 15px;
   margin-bottom: 7px;
 }
-footer .foot-1colo p,footer .foot-1colo h2,footer .foot-1colo a {
+footer .foot-1colo p,
+footer .foot-1colo h2,
+footer .foot-1colo a {
   color: #f1ebd9;
 }
-footer .foot-1colo a,footer .foot-1 a{
+footer .foot-1colo a,
+footer .foot-1 a {
   text-decoration: none;
-  font-weight: bold
+  font-weight: bold;
 }
-footer .foot-1 a{
-  color: black;
+footer .foot-1 a,footer .foot-1 p,footer .foot-1 h2{
+  color: #73160e;
 }
 main .row .col-10 ul li {
   list-style-type: none;
-  color: #73160E;
+  color: #73160e;
 }
 main .row .col-10 ul .title_list {
   font-weight: 600;
@@ -148,30 +163,32 @@ main .row .col-10 ul li span {
   margin-left: 7px;
 }
 
-main .main-1 .title-menu, main .title-resto-ca {
+main .main-1 .title-menu,
+main .title-resto-ca {
   font-weight: 600;
   font-size: 70px;
   height: 68px;
-  color: #73160E;
+  color: #73160e;
   margin-bottom: 45px;
 }
 
 main .carousel-item img {
   height: 624px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 main .pays-ca {
   font-weight: 600;
-  color: #73160E;
+  color: #73160e;
   font-size: 43.26px;
 }
-main .resto-ouvert article p, main .resto-ouvert article h3 {
+main .resto-ouvert article p,
+main .resto-ouvert article h3 {
   font-size: 15px;
 }
-main .main-resto .resto-ouvert{
+main .main-resto .resto-ouvert {
   margin-bottom: 45px;
 }
 main .resto-ouvert article h3 {
@@ -187,10 +204,62 @@ body main .form-floating {
   background-color: #f1ebd9;
 }
 body main .container .send {
-  background-color: #73160E;
+  background-color: #73160e;
   color: #f1ebd9;
   padding-right: 8px;
 }
 body main .container .send img {
   margin-left: 5px;
-}/*# sourceMappingURL=index.css.map */
+}
+@media only screen and (max-width: 768px) {
+  main .main-2 .article-card-1 .card {
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  main .img-damier {
+    width: 100%;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+
+  }
+  main .article-card-1 .card-all-1{
+    margin-bottom: 25px;
+  }
+  footer .foot-logo-lien img{
+    width: 50%;
+    margin-right: 0px;
+  }
+  footer .foot-img {
+    margin-right: 0px;
+  }
+  footer .foot-1colo nav ul li{
+    margin-bottom: 24px;
+    &:last-child{
+      margin-bottom: 0px;
+    }
+  }
+  main .main-1-images{
+    width: 540px !important;
+    height: 400px;
+    margin-top: 50px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  body main {
+    padding-top: 50px;
+  }
+  body .main-1 .main-1-logo {
+    margin-bottom: 50px;
+  }
+  footer{
+    height: 325px;
+  }
+/*# sourceMappingURL=index.css.map */
+}
