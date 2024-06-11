@@ -68,8 +68,13 @@ body .main-1 .main-1-para {
   font-size: 15px;
   text-align: justify;
 }
-main .img-damier {
-  width: 1903px;
+body main .img-damier{
+  height: 80px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
 }
 main .main-1 .main-1-logo,
 main .main-1 .main-1-para {
@@ -224,7 +229,7 @@ body main .container .send img {
       margin-bottom: 0px;
     }
   }
-  body .img-damier {
+  body main .img-damier {
     width: 100%;
     height: 80px;
     -o-object-fit: cover;
