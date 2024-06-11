@@ -24,7 +24,6 @@
   font-weight: bold;
   font-style: normal;
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -68,7 +67,7 @@ body .main-1 .main-1-para {
   font-size: 15px;
   text-align: justify;
 }
-body main .img-damier{
+body .img-damier{
   height: 80px;
   width: 100%;
   -o-object-fit: cover;
@@ -229,7 +228,7 @@ body main .container .send img {
       margin-bottom: 0px;
     }
   }
-  body main .img-damier {
+  body .img-damier {
     width: 100%;
     height: 80px;
     -o-object-fit: cover;
@@ -265,8 +264,4 @@ body main .container .send img {
   body .main-1 .main-1-logo {
     margin-bottom: 50px;
   }
-  // footer {
-  //   height: 340px;
-  // }
-  /*# sourceMappingURL=index.css.map */
 }

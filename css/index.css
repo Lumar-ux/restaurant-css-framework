@@ -12037,7 +12037,7 @@ body .main-1 .main-1-para {
   text-align: justify;
 }
 
-body main .img-damier {
+body .img-damier {
   height: 80px;
   width: 100%;
   -o-object-fit: cover;
@@ -12234,7 +12234,7 @@ body main .container .send img {
   main .main-2 .article-card-1 .card:last-child {
     margin-bottom: 0px;
   }
-  body main .img-damier {
+  body .img-damier {
     width: 100%;
     height: 80px;
     -o-object-fit: cover;
@@ -12270,5 +12270,4 @@ body main .container .send img {
   body .main-1 .main-1-logo {
     margin-bottom: 50px;
   }
-
 }/*# sourceMappingURL=index.css.map */
