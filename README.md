@@ -1,7 +1,3 @@
-Voici un **README.md** amélioré pour ton projet **Restaurant CSS Framework**, conçu pour mettre en valeur tes compétences en développement web, en particulier en utilisant le framework Bootstrap, et attirer l'attention des recruteurs dans le secteur IT :
-
----
-
 # Restaurant CSS Framework
 
 Bienvenue dans le dépôt **restaurant-css-framework** ! Ce projet consiste en la création d'une page web pour un restaurant fictif, en utilisant le framework CSS Bootstrap pour une présentation moderne et responsive.
