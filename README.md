@@ -8,9 +8,10 @@ Bienvenue dans le dépôt **restaurant-css-framework** ! Ce projet consiste en l
 
 ## Introduction
 
-Le projet **restaurant-css-framework** met en forme un restaurant fictif nommé **Tavlola**. Ce site web est conçu pour être **responsive** et inclut plusieurs pages essentielles pour offrir une expérience utilisateur complète. Le choix du type de cuisine est libre, permettant une personnalisation créative tout en mettant en avant vos compétences avec Bootstrap.
+Le projet **restaurant-css-framework** met en forme un restaurant fictif nommé **Tavlola** est une pizzeria contemporaine qui a su se démarquer grâce à son approche innovante de la cuisine italienne. Située dans un quartier branché, Tavola propose un menu éclectique avec des pizzas aux saveurs uniques, comme la truffe blanche et le gorgonzola, ou encore le poulet épicé et la mangue. Le décor moderne et l'ambiance conviviale attirent une clientèle jeune et dynamique, faisant de Tavola un lieu incontournable pour les amateurs de nouveautés culinaires.
 
-- **Lien du projet GitHub** : [restaurant-css-framework Repository](git@github.com:Lumar-ux/restaurant-css-framework.git)
+Ce site web est conçu pour être **responsive** et inclut plusieurs pages essentielles pour offrir une expérience utilisateur complète. Le choix du type de cuisine est libre, permettant une personnalisation créative tout en mettant en avant vos compétences avec Bootstrap.
+
 - **Lien de déploiement** : [Voir la démo en ligne](https://lumar-ux.github.io/restaurant-css-framework/)
 
 ## La Mission
